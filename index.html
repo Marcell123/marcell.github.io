@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <meta property="og:url" content="https://musicfestival.org/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="MusicFestival">
+    <meta property="og:image" content="https://musicfestival.org/images/preview.jpg">
+    <meta property="og:description" content="Description Here">
+    <meta property="og:site_name" content="Site Name">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="demo/css/cd.css">
+    <link rel="stylesheet" href="demo/css/main.css">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <script src="http://vk.com/js/api/openapi.js"></script>
+
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    
+    <header class="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-9 col-lg-4">
+            <div class="description">
+                <picture>
+                  <source srcset="images/top_logo.png">
+                  <img class="header-logo" src="images/top_logo.png" alt="logo" title="logo">
+                </picture>
+                <span class="description-line">Описание сайта для пользователя</span>
+            </div>
+          </div>
+          <div class="col-xs-3 col-lg-8">
+            <ul class="navigation-desktop visible-lg">
+              <li><a class="nav-item slowly" href="#about">Что это?</a></li>
+              <li><a class="nav-item slowly" href="#video">Видео</a></li>
+              <li><a class="nav-item slowly" href="#list">Список продуктов</a></li>
+              <li><a class="nav-item slowly" href="#faq">FAQ</a></li>
+              <li><a class="nav-item slowly" href="#footer">Контакты</a></li>
+              <li><a class="offer-btn slowly" href="#ticket">Заказать продукт</a></li>
+            </ul>
+            <a href="#" class="nav-link hidden-lg">
+              <span class="nav-line"></span>
+            </a>
+            <div class="navigation-mobile">
+              <div class="navigation-close">
+                &times;
+              </div>
+              <ul>
+                <li><a class="slowly" href="#about">Что это?</a></li>
+                <li><a class="slowly" href="#video">Видео</a></li>
+                <li><a class="slowly" href="#list">Список продуктов</a></li>
+                <li><a class="slowly" href="#faq">FAQ</a></li>
+                <li><a class="slowly" href="#footer">Контакты</a></li>
+                <li><a class="slowly" href="#ticket">Заказать продукт</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="header-text">
+          <div class="main-logo">
+              <picture>
+                <source srcset="images/logo.svg">
+                <img src="images/logo.png" alt="Логотип Аудиоквесты Казани" title="Логотип Аудиоквесты Казани">
+              </picture>
+          </div>
+          <h1>Первый в Казани <span>групповой аудиоквест</span></h1>
+          <p>Краткое описание сути услуги <span>либо предложение в виде УТП</span></p>
+          <a href="#about" class="header-btn slowly btn">Узнать подробности</a>
+        </div>
+      </div>
+    </header>
+
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-lg-7 format-text">
+            <div class="about-text">
+              <h2 class="section-header">Абсолютно уникальный заголовок</h2>
+              <p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Страна мир о необходимыми языком маленькая вопрос гор приставка назад вершину имени реторический бросил единственное деревни алфавит которое, осталось выйти. <br><br>
+              Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Страна мир о необходимыми языком маленькая вопрос гор приставка</p>
+            </div>
+            <div class="about-features">
+              <div class="row">
+                <div class="col-xs-12 col-md-3">
+                    <picture>
+                      <source srcset="images/1.svg">
+                      <img src="images/1.png" alt="Специальные инструменты" title="Специальные инструменты">
+                    </picture>
+                  <p>Специальные инструменты</p>
+                </div>
+                <div class="col-xs-12 col-md-3">
+                    <picture>
+                      <source srcset="images/2.svg">
+                      <img src="images/2.png" alt="Скидки для оптовых клиентов" title="Скидки для оптовых клиентов">
+                    </picture>
+                  <p>Скидки для оптовых клиентов</p>
+                </div>
+                <div class="col-xs-12 col-md-3">
+                    <picture>
+                      <source srcset="images/3.svg">
+                      <img src="images/3.png" alt="В любой точке города" title="В любой точке города">
+                    </picture>
+                  <p>В любой точке города</p>
+                </div>
+                <div class="col-xs-12 col-md-3">
+                    <picture>
+                      <source srcset="images/4.svg">
+                      <img src="images/4.png" alt="Длительность 90 минут" title="Длительность 90 минут">
+                    </picture>
+                  <p>Длительность 90 минут</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-lg-5 format-img">
+            <div class="about-slider">
+              <div class="slider-item"><img src="images/slider/1.jpg" alt="Фото слайдер"></div>
+              <div class="slider-item"><img src="images/slider/2.jpg" alt="Фото слайдер"></div>
+              <div class="slider-item"><img src="images/slider/3.jpg" alt="Фото слайдер"></div>
+              <div class="slider-item"><img src="images/slider/4.jpg" alt="Фото слайдер"></div>
+              <div class="slider-item"><img src="images/slider/5.jpg" alt="Фото слайдер"></div>
+              <div class="slider-item"><img src="images/slider/6.jpg" alt="Фото слайдер"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="video">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-lg-5">
+            <div class="video-text">
+              <h2 class="section-header">
+                Призыв к действию
+              </h2>
+              <p>дополнительный подзаголовок для призыва</p>
+              <a href="#" class="btn">Узнать подробнее о продукте</a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-lg-7">
+            <iframe class="video-iframe" src="https://www.youtube.com/embed/non_0jlOXew" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="list">
+      <div class="container-fluid">
+        <h2 class="section-header">Список продуктов</h2>
+        <div class="cd-main">
+          <ul class="cd-gallery">
+            <li class="cd-item">
+              <a href="item-1.html">
+                <div class="cd-space">
+                  <h2>Название продукта</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                  <b>Подробнее</b>
+                </div>
+              </a>
+            </li>
+
+            <li class="cd-item">
+              <a href="item-2.html">
+                <div>
+                  <h2>Название продукта</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                  <b>Подробнее</b>
+                </div>
+              </a>
+            </li>
+
+            <li class="cd-item">
+              <a class="dark-text" href="item-3.html">
+                <div>
+                  <h2>Название продукта</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                  <b>Подробнее</b>
+                </div>
+              </a>
+            </li>
+
+            <li class="cd-item">
+              <a href="item-4.html">
+                <div>
+                  <h2>Название продукта</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                  <b>Подробнее</b>
+                </div>
+              </a>
+            </li>
+          </ul> <!-- .cd-gallery -->
+        </div> <!-- .cd-main -->
+  
+        <div class="cd-folding-panel">
+          
+          <div class="fold-left"></div> <!-- this is the left fold -->
+          
+          <div class="fold-right"></div> <!-- this is the right fold -->
+          
+          <div class="cd-fold-content">
+            <!-- content will be loaded using javascript -->
+          </div>
+
+          <a class="cd-close" href="#0"></a>
+        </div> <!-- .cd-folding-panel -->
+      </div>
+    </section>
+
+    <section id="faq">
+      <div class="container">
+        <h2 class="section-header">Ответы на вопросы</h2>
+        <p class="small-text">кликните на вопрос, что бы открыть ответ</p>
+        <div class="row">
+          <div class="col-xs-12 col-lg-6 faq-left">
+            <a class="faq-link" role="button" data-toggle="collapse" href="#q1" aria-expanded="false" aria-controls="q1">
+              <picture>
+                <source srcset="images/arrow.svg">
+                <img class="arrow-down" src="images/arrow.png" alt="arrow-collapse" title="arrow-collapse">
+              </picture>
+            Что нужно для получения продукта?</a>
+            <div class="collapse" id="q1">
+              <div class="well-done">
+                Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Страна мир о необходимыми языком маленькая вопрос гор приставка назад вершину имени реторический бросил единственное деревни алфавит которое, осталось выйти.
+              </div>
+            </div>
+            <a class="faq-link" role="button" data-toggle="collapse" href="#q2" aria-expanded="false" aria-controls="q2">
+              <picture>
+                <source srcset="images/arrow.svg">
+                <img class="arrow-down" src="images/arrow.png" alt="arrow-collapse" title="arrow-collapse">
+              </picture>
+            Могу ли я получить скидку?</a>
+            <div class="collapse" id="q2">
+              <div class="well-done">
+                Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Страна мир о необходимыми языком маленькая вопрос гор приставка назад вершину имени реторический бросил единственное деревни алфавит которое, осталось выйти.
+              </div>
+            </div>
+            <a class="faq-link" role="button" data-toggle="collapse" href="#q3" aria-expanded="false" aria-controls="q3">
+              <picture>
+                <source srcset="images/arrow.svg">
+                <img class="arrow-down" src="images/arrow.png" alt="arrow-collapse" title="arrow-collapse">
+              </picture>
+            Где начинается офис вашей компании?</a>
+            <div class="collapse" id="q3">
+              <div class="well-done">
+                Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Страна мир о необходимыми языком маленькая вопрос гор приставка назад вершину имени реторический бросил единственное деревни алфавит которое, осталось выйти.
+              </div>
+            </div>
+            <a class="faq-link" role="button" data-toggle="collapse" href="#q4" aria-expanded="false" aria-controls="q4">
+              <picture>
+                <source srcset="images/arrow.svg">
+                <img class="arrow-down" src="images/arrow.png" alt="arrow-collapse" title="arrow-collapse">
+              </picture>
+            Придется ли забирать товар самостоятельно, или есть доставка?</a>
+            <div class="collapse" id="q4">
+              <div class="well-done">
+                Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Страна мир о необходимыми языком маленькая вопрос гор приставка назад вершину имени реторический бросил единственное деревни алфавит которое, осталось выйти.
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-lg-6 faq-right">
+            <a class="faq-link" role="button" data-toggle="collapse" href="#q5" aria-expanded="false" aria-controls="q5">
+              <picture>
+                <source srcset="images/arrow.svg">
+                <img class="arrow-down" src="images/arrow.png" alt="arrow-collapse" title="arrow-collapse">
+              </picture>
+            Есть ли у вас партнерская программа для покупателей?</a>
+            <div class="collapse" id="q5">
+              <div class="well-done">
+                Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Страна мир о необходимыми языком маленькая вопрос гор приставка назад вершину имени реторический бросил единственное деревни алфавит которое, осталось выйти.
+              </div>
+            </div>
+            <a class="faq-link" role="button" data-toggle="collapse" href="#q6" aria-expanded="false" aria-controls="q6">
+              <picture>
+                <source srcset="images/arrow.svg">
+                <img class="arrow-down" src="images/arrow.png" alt="arrow-collapse" title="arrow-collapse">
+              </picture>
+            Можно ли заказать корпоративное участие в квесте?</a>
+            <div class="collapse" id="q6">
+              <div class="well-done">
+                Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Страна мир о необходимыми языком маленькая вопрос гор приставка назад вершину имени реторический бросил единственное деревни алфавит которое, осталось выйти.
+              </div>
+            </div>
+            <a class="faq-link" role="button" data-toggle="collapse" href="#q7" aria-expanded="false" aria-controls="q7">
+              <picture>
+                <source srcset="images/arrow.svg">
+                <img class="arrow-down" src="images/arrow.png" alt="arrow-collapse" title="arrow-collapse">
+              </picture>
+            Можно ли заказать товар или услугу оптом?</a>
+            <div class="collapse" id="q7">
+              <div class="well-done">
+                Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Страна мир о необходимыми языком маленькая вопрос гор приставка назад вершину имени реторический бросил единственное деревни алфавит которое, осталось выйти.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="ticket">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-lg-8 col-lg-offset-2">
+            <h2 class="section-header">Купить товар или услугу онлайн</h2>
+            <p class="small-text">Дополнительная информация<br> по приобретению товара или услуги</p>
+            <div class="ticket-body">
+              <div class="balls-left">
+                <span class="ball"></span>
+                <span class="ball"></span>
+                <span class="ball"></span>
+                <span class="ball"></span>
+                <span class="ball"></span>
+                <span class="ball"></span>
+                <span class="ball"></span>
+                <span class="ball"></span>
+                <span class="ball"></span>
+                <span class="ball"></span>
+                <span class="ball"></span>
+                <span class="ball"></span>
+                <span class="ball"></span>
+                <span class="ball"></span>
+                <span class="ball"></span>
+                <span class="ball"></span>
+                <span class="ball"></span>
+              </div>
+              <div class="balls-right">
+                <span class="ball"></span>
+                <span class="ball"></span>
+                <span class="ball"></span>
+                <span class="ball"></span>
+                <span class="ball"></span>
+                <span class="ball"></span>
+                <span class="ball"></span>
+                <span class="ball"></span>
+                <span class="ball"></span>
+                <span class="ball"></span>
+                <span class="ball"></span>
+                <span class="ball"></span>
+                <span class="ball"></span>
+                <span class="ball"></span>
+                <span class="ball"></span>
+                <span class="ball"></span>
+                <span class="ball"></span>
+              </div>
+              <div class="row">
+                <div class="col-xs-5">
+                  <div class="price-text">
+                    <span>Стоимость продукта</span>
+                    <span class="price-tag">990 <span class="smaller">р</span>.</span>
+                  </div>
+                </div>
+                <div class="col-xs-7">
+                  <a class="btn price-btn" data-toggle="modal" href="#ticket-modal">Купить товар</a>
+                </div>
+              </div>
+              <p class="price-payment">Вы будете переведены на страницу оплаты. <br><span>Все платежи защищены</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-8">
+           <div class="row">
+              <div class="col-md-6">
+                <script src="//vk.com/js/api/openapi.js?150"></script>
+                 <div id="vk_groups"></div>
+                 <script>
+                 VK.Widgets.Group("vk_groups", {mode: 3, width: "300", no_cover: 1, color3: '00A4D7'}, 20003922);
+                             </script>
+              </div>
+             <div class="col-md-6">
+               <iframe class="instagram-iframe" src="//widget.instagramm.ru/?imageW=2&imageH=1&thumbnail_size=137&type=0&typetext=football&head_show=1&profile_show=1&shadow_show=0&bg=255,255,255,1&opacity=true&head_bg=4d78a1&subscribe_bg=ad4141&border_color=c3c3c3&head_title=%25D0%259C%25D1%258B%2520%25D0%25B2%2520Instagram%253A"></iframe>
+             </div>
+           </div>
+          </div>
+          <div class="col-xs-12 col-md-4">
+            <div class="contacts">
+              <h2>Контакты</h2>
+              <p>8 (999) 123-45-67</p>
+              <p>г. Казань, ул. Пушкина, д. Колотушкина</p>
+              <p id="mail-commercial">Почта для коммерческих предложений <a href="mailto:mail@gmail.com">mail@gmail.com</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="ticket-modal" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Покупка билета на фестиваль</h4>
+          </div>
+          <div class="modal-body">
+            <a href="https://musicfestival.timepad.ru/event/635276/" data-twf-placeholder="yes">Перейти к заказу билетов</a><script async="async" defer="defer" charset="UTF-8" src="https://timepad.ru/js/tpwf/loader/min/loader.js" data-timepad-customized="33610" data-twf2s-event--id="635276" data-timepad-widget-v2="event_register"></script>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
+    <script src="slick/slick.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('.about-slider').slick({
+          prevArrow: '<button class="arrow arrow-left"><picture><source srcset="images/arrow.svg"><img src="images/arrow.png" alt="arrow-left" title="arrow-left"></picture></button>',
+          nextArrow: '<button class="arrow arrow-right"><picture><source srcset="images/arrow.svg"><img src="images/arrow.png" alt="arrow-right" title="arrow-right"></picture></button>'
+        });
+        $('.faq-link').click(function() {
+          $(this).find('.arrow-down').toggleClass('arrow-down__active')
+        });
+        $('.nav-link').click(function() {
+          $('.navigation-mobile').toggleClass('navigation-mobile_active');
+        });
+        $('.navigation-close').click(function() {
+          $('.navigation-mobile').toggleClass('navigation-mobile_active');
+        });
+        $('.navigation-mobile a').click(function() {
+          $('.navigation-mobile').toggleClass('navigation-mobile_active');
+        });
+        $(".slowly").on("click", function (event) {
+            //отменяем стандартную обработку нажатия по ссылке
+            event.preventDefault();
+            //забираем идентификатор бока с атрибута href
+            var id  = $(this).attr('href'),
+            //узнаем высоту от начала страницы до блока на который ссылается якорь
+              top = $(id).offset().top;        
+            //анимируем переход на расстояние - top за 600 мс
+            $('body,html').animate({scrollTop: top}, 600);
+        });
+      });
+    </script>
+  </body>
+</html>
